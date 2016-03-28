@@ -1,0 +1,86 @@
+
+/*@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic|Raleway:400,300,200);*/
+html{ height: 100%;}
+body{
+    background-color: white;
+    /*background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgb(199, 212, 19) 5px, rgb(199, 212, 19) 38px);*/
+    /*background: linear-gradient(45deg, white 44%, #8b0 47%, #8b0 51%, white 49%, white 96%, #8b0 75%);
+    /*background: linear-gradient(45deg, white 25%, #8b0 25%, #8b0 50%, white 50%, white 75%, #8b0 75%);*/
+
+    background: linear-gradient(45deg, transparent 45%, #88bb00 49%, #88bb00 51%, transparent 55%);
+    background-size: 12px   12px;
+    /*background-size: 40px 40px;
+	*/font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    min-height: 100%;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 50px;
+    background: rgb(94, 95, 95);
+    border-radius: 50%;
+    color:  rgb(199, 212, 19);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+    vertical-align: 50% ;
+}
+
+.logo:after {
+    content: "eiffelis";
+    display: block;
+    padding-top: 47px;
+    width: 100%;
+    /*padding-bottom: 100%;
+    background: #4679BD;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;*/
+}
+
+nav{
+    background: white;
+    border-radius: 30px;
+    font-size: 3em;
+}
+
+nav>a{margin-right: 50px;}
+nav>a.first{margin-left: 50px;}
+
+
+.container{
+    background: white;
+    color: #000000;
+    padding: 10px;
+    border-radius: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    top: 200px; /* Header Height */
+    bottom: 100px; /* Footer Height */
+}
+
+
+.container{ text-align: left;}
+
+h1{text-align: center;}
+
+
+footer{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+}
